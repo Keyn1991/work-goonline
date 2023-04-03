@@ -1,0 +1,40 @@
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+
+.color-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, 4.5);
+
+
+}
+
+
+
+.Color {
+text-align: center;
+}
+
+.color-item:hover {
+  color: pink;
+  text-decoration: #20B2AA;
+
+
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

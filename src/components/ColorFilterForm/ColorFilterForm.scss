@@ -1,0 +1,52 @@
+.color-filter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.color-filter-form__checkbox-group {
+  display: flex;
+  flex-direction: column;
+
+  align-items: baseline
+}
+
+.color-filter-form__checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.color-filter-form__checkbox-label:hover .color-filter-form__checkbox-custom {
+  background-color: #ccc;
+}
+
+.color-filter-form__checkbox-label input[type='checkbox'] {
+  display: none;
+}
+
+.color-filter-form__checkbox-custom {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+}
+
+.color-filter-form__checkbox-custom:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}
+
