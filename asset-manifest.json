@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Keyn1991/work-goonline/static/css/main.db028124.css",
-    "main.js": "/Keyn1991/work-goonline/static/js/main.c8c1f05a.js",
+    "main.js": "/Keyn1991/work-goonline/static/js/main.68c5770c.js",
     "static/js/787.f181033c.chunk.js": "/Keyn1991/work-goonline/static/js/787.f181033c.chunk.js",
     "index.html": "/Keyn1991/work-goonline/index.html",
     "main.db028124.css.map": "/Keyn1991/work-goonline/static/css/main.db028124.css.map",
-    "main.c8c1f05a.js.map": "/Keyn1991/work-goonline/static/js/main.c8c1f05a.js.map",
+    "main.68c5770c.js.map": "/Keyn1991/work-goonline/static/js/main.68c5770c.js.map",
     "787.f181033c.chunk.js.map": "/Keyn1991/work-goonline/static/js/787.f181033c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db028124.css",
-    "static/js/main.c8c1f05a.js"
+    "static/js/main.68c5770c.js"
   ]
 }
