@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/work-goonline/static/css/main.9e09f254.css",
-    "main.js": "/work-goonline/static/js/main.dad18cfb.js",
-    "static/js/787.f181033c.chunk.js": "/work-goonline/static/js/787.f181033c.chunk.js",
+    "main.js": "/work-goonline/static/js/main.7870ba87.js",
     "index.html": "/work-goonline/index.html",
     "main.9e09f254.css.map": "/work-goonline/static/css/main.9e09f254.css.map",
-    "main.dad18cfb.js.map": "/work-goonline/static/js/main.dad18cfb.js.map",
-    "787.f181033c.chunk.js.map": "/work-goonline/static/js/787.f181033c.chunk.js.map"
+    "main.7870ba87.js.map": "/work-goonline/static/js/main.7870ba87.js.map"
   },
   "entrypoints": [
     "static/css/main.9e09f254.css",
-    "static/js/main.dad18cfb.js"
+    "static/js/main.7870ba87.js"
   ]
 }
