@@ -9,7 +9,6 @@ interface Color {
     hex: string;
 
 }
-
 interface ColorListProps {
     defaultColors: Color[];
     onRemove: (hex: string) => void;
@@ -23,7 +22,6 @@ const ColorList: React.FC<ColorListProps> = ({ defaultColors, onRemove }) => {
         blue: false,
         saturation: false,
     });
-
 
     useEffect(() => {
         const storedColors = localStorage.getItem('colors');
@@ -40,8 +38,6 @@ const ColorList: React.FC<ColorListProps> = ({ defaultColors, onRemove }) => {
         setColors(updatedColors);
         onRemove(color.hex);
     };
-
-
 
     const handleFilterChange = (filterName: string, value: boolean) => {
         setFilters((prevFilters) => ({ ...prevFilters, [filterName]: value }));
@@ -102,8 +98,6 @@ const ColorList: React.FC<ColorListProps> = ({ defaultColors, onRemove }) => {
             onRemove={handleRemove}
             isRemovable={true}
         />);
-
-
 
     return (
         <div className="Color">
